@@ -1,0 +1,49 @@
+// Add any custom Sass & CSS here
+h1 {
+  font-family: "Oswald Regular", sans-serif;
+}
+
+.photo {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 70%;
+  border-radius: 50%;
+  margin: auto auto;
+  display: block;
+}
+
+.detail_top {
+  background-color: #89bdd3;
+  padding: 3%;
+}
+
+.detail_middle {
+  padding: 3%;
+  background-color: #9ad3de;
+  border-bottom: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: darkgrey;
+}
+
+.detail_buttom {
+  padding: 3%;
+  background-color: #9ad3de;
+}
+
+h5 {
+  margin: 0 0;
+}
+
+.panel {
+  background-color: #e3e3e3;
+  :hover {
+    @include transition(0.4);
+    background-color: lightgray;
+  }
+}
+
+.card {
+  border-bottom: solid;
+  border-bottom-color: lightblue;
+  padding: 3% 3%;
+}
