@@ -7,3 +7,5 @@ save to local
 in terminal: grunt
 
 open browser: http://localhost:3000/
+
+![Alt text](demo.png?raw=true "Optional Title")
